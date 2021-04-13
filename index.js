@@ -180,13 +180,10 @@ const addEngineer = () => {
     ])
     .then((answer) => {
       console.log(answer);
-      switch (answer.addAnother) {
-        case "True":
-          addUser();
-          break;
-        case "False":
-          buildEngineer();
-          break;
+      if (answer.addAnother) {
+        addUser();
+      } else {
+        buildEngineer();
       }
     });
 };
@@ -255,14 +252,10 @@ const addIntern = () => {
     ])
     .then((answer) => {
       console.log(answer);
-      switch (answer.addAnother) {
-        case "True":
-          addUser();
-          break;
-        case "False":
-          console.log("exit");
-          buildIntern();
-          break;
+      if (answer.addAnother) {
+        addUser();
+      } else {
+        buildIntern();
       }
     });
 };
