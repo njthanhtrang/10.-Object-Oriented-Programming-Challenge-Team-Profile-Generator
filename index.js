@@ -18,12 +18,11 @@ const mainMenu = async () => {
       choices: ["Add a team", "Exit"],
     },
   ]);
-  console.log(answer);
   switch (answer.menu) {
     case "Add a team":
       return addManager();
     case "Exit":
-      console.log("exit");
+      console.log("Bye!");
       break;
   }
 };
@@ -219,7 +218,7 @@ const addIntern = async () => {
 };
 
 const writeToFile = (data) => {
-  console.log(data);
+  // console.log(data);
   return new Promise((resolve, reject) => {
     fs.writeFile("./dist/index.html", data, (err) => {
       if (err) {
@@ -237,8 +236,8 @@ const writeToFile = (data) => {
 function init() {
   mainMenu()
     .then((response) => {
-      console.log(response);
-      console.log(employeesArr);
+      // console.log(response);
+      // console.log(employeesArr);
       return generate.generatePage(response);
     })
     .then((res) => {
@@ -249,7 +248,9 @@ function init() {
 
 init();
 
-// writefile
+
+
+
 // encapsulate fx into separate fx
 // call general questions, switch based on role
 // call role specific quetions

@@ -16,5 +16,5 @@ test("github property", () => {
 test("github method", () => {
     const e = new Engineer("Jen", "1", "jen@email.com", "njthanhtrang");
 
-    expect(e.getGithub()).toBe("njthanhtrang");
+    expect(e.getGithub()).toBe("<a href=\"https://github.com/njthanhtrang\" target=\"_blank\" rel=\"noopener noreferrer\">njthanhtrang</a>");
 });
