@@ -23,16 +23,20 @@ In the future, this project may be refactored for improved efficiency and readab
 # Usage
 Answer prompts in your command line to generate the team roster as an HTML webpage.
 
+<img width="1355" alt="Screen Shot 2021-04-17 at 10 05 06 PM" src="https://user-images.githubusercontent.com/77700824/115134890-08cfa180-9fc9-11eb-9edb-4044f7c13b59.png">
+
 # Tests
 Passing tests using Jest are included for each employee type's specific constructor functions and methods.
 
 Run these tests in your command line using "npm run test".
 
+<img width="665" alt="Screen Shot 2021-04-17 at 10 07 06 PM" src="https://user-images.githubusercontent.com/77700824/115134913-40d6e480-9fc9-11eb-9125-be743569eeba.png">
+
 # Demonstration
-https://youtu.be/zyqrzNpHfAQ
+https://www.youtube.com/watch?v=g3CiEA5ZnTI
 
 # Credits
-Created by Jennifer Nguyen with the gracious mentorship of TAs John Baxter, Wesley Tran and John Baxter.
+Created by Jennifer Nguyen with the gracious mentorship of TAs John Blackwell, Wesley Tran and John Baxter.
 
 # Questions
 For additional questions and information, please go to github.com/njthanhtrang/
@@ -41,3 +45,4 @@ or reach out via email at njthanhtrang@gmail.com.
 # License
 Copyright 2019 Horiseon Social Solution Services, Inc.
 © 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+
