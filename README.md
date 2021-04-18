@@ -18,10 +18,9 @@ In the future, this project may be refactored for improved efficiency and readab
 1. Clone the Git repository. Navigate to the application folder in your directory and run the following commands in your command line to install the npm package dependencies.
 2. "npm init"
 3. "npm install inquirer"
-4. Invoke the application with "node index.js"
 
 # Usage
-Answer prompts in your command line to generate the team roster as an HTML webpage.
+Invoke the application with "node index.js". Answer prompts in your command line to generate the team roster as an HTML webpage.
 
 <img width="1355" alt="Screen Shot 2021-04-17 at 10 05 06 PM" src="https://user-images.githubusercontent.com/77700824/115134890-08cfa180-9fc9-11eb-9edb-4044f7c13b59.png">
 
