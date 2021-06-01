@@ -23,7 +23,7 @@
 Created by Jennifer Nguyen.
 
 # Questions
-For additional questions and information, please go to github.com/njthanhtrang/
+For additional questions and information, please go to [a link](github.com/njthanhtrang/)
 or reach out via email at njthanhtrang@gmail.com.
 
 # License
